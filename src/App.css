@@ -1,38 +1,192 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+#auth {
+  background: #6c757d;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-top: 100px;
+}
+#auth .card {
+  box-shadow: 0 5px 15px rgba(36, 104, 146, 0.6);
+  border: none;
 }
 
-.App-link {
-  color: #61dafb;
+/** 4.1 Error Pages **/
+#error {
+  height: 100vh;
+  width: 100%;
+  background-color: #e9ecef;
+}
+#error .error-title {
+  font-size: 10rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/** 5. Utilities **/
+.text-xxs {
+  font-size: 0.65rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+}
+
+.text-sm {
+  font-size: 0.85rem;
+}
+
+.font-bold {
+  font-weight: 800;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.pt-32 {
+  padding-top: 6rem;
+}
+
+.ml-50 {
+  margin-left: 0.5rem;
+}
+
+.w-0 {
+  width: 0;
+}
+
+.w-1 {
+  width: 0.25rem;
+}
+
+.w-2 {
+  width: 0.5rem;
+}
+
+.w-3 {
+  width: 0.75rem;
+}
+
+.w-4 {
+  width: 1rem;
+}
+
+.w-5 {
+  width: 1.25rem;
+}
+
+.w-10 {
+  width: 2.25rem;
+}
+
+.h-0 {
+  height: 0;
+}
+
+.h-1 {
+  height: 0.25rem;
+}
+
+.h-2 {
+  height: 0.5rem;
+}
+
+.h-3 {
+  height: 0.75rem;
+}
+
+.h-4 {
+  height: 1rem;
+}
+
+.h-5 {
+  height: 1.25rem;
+}
+
+.h-10 {
+  height: 2.25rem;
+}
+
+.rounded-none {
+  border-radius: 0;
+}
+
+.round {
+  border-radius: 1.5rem;
+}
+
+.rounded-full {
+  border-radius: 50%;
+}
+
+.square {
+  border-radius: 0;
+}
+
+.text-red {
+  color: #ff6384;
+}
+
+.bg-red {
+  background-color: #ff6384 !important;
+}
+
+.text-orange {
+  color: #ff9f40;
+}
+
+.bg-orange {
+  background-color: #ff9f40 !important;
+}
+
+.text-yellow {
+  color: #ffcd56;
+}
+
+.bg-yellow {
+  background-color: #ffcd56 !important;
+}
+
+.text-green {
+  color: #4bc0c0;
+}
+
+.bg-green {
+  background-color: #4bc0c0 !important;
+}
+
+.text-info {
+  color: #41B1F9;
+}
+
+.bg-info {
+  background-color: #41B1F9 !important;
+}
+
+.text-blue {
+  color: #3245D1;
+}
+
+.bg-blue {
+  background-color: #3245D1 !important;
+}
+
+.text-purple {
+  color: #9966ff;
+}
+
+.bg-purple {
+  background-color: #9966ff !important;
+}
+
+.text-grey {
+  color: #EBEFF6;
+}
+
+.bg-grey {
+  background-color: #EBEFF6 !important;
+}
+
+.text-gray-700 {
+  color: #4a5568;
+}
+
+.bg-gray-700 {
+  background-color: #4a5568 !important;
 }
